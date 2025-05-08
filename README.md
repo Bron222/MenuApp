@@ -23,7 +23,6 @@ OVERVIEW OF SYSTEM
 
 This project is a simple GUI app implemented with the capability to take multiple orders from a menu, add them to a grand total, calculate tax, and create a detailed receipt via .txt file within the current directory.
 
-===================
 INSTRUCTIONS ON USE
 ===================
 
