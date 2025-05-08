@@ -1,21 +1,25 @@
 Menu App
+========
 
-===================
+
 CREATOR INFORMATION
 ===================
 
 Bron Whitten
 
-=================
+
 BUILD INFORMATION
 =================
 
 Language: Python
+
 GUI: Tkinter
 
-==================
+
 OVERVIEW OF SYSTEM
 ==================
+
+![MenuAppPic](https://github.com/user-attachments/assets/e20bb6d8-e3f7-48c9-9853-8aa76d487a18)
 
 This project is a simple GUI app implemented with the capability to take multiple orders from a menu, add them to a grand total, calculate tax, and create a detailed receipt via .txt file within the current directory.
 
@@ -29,7 +33,6 @@ At this point, the user may add another order or sumbit the order with the "Subm
 After sumbitting the order, a reciept.txt file will be generated in the same directory and a notification will prompt the user that their order was sumbitted.
 
 
-=============
 SPECIAL NOTES
 =============
 
