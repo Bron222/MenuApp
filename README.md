@@ -1,42 +1,83 @@
-Menu App
-========
+# Menu App
 
+## Creator  
+**Bron Whitten**
 
-CREATOR INFORMATION
-===================
+---
 
-Bron Whitten
+## Project Structure  
+```
+├── resources/        # Contains application assets (e.g., .ico file)
+├── src/              # Contains the main Python source code
+│   └── menu_app.py   # Primary GUI application file
+└── README.md         # Project overview and instructions
+```
 
+---
 
-BUILD INFORMATION
-=================
+## Build Information  
+- **Language:** Python  
+- **GUI Framework:** Tkinter  
 
-Language: Python
+---
 
-GUI: Tkinter
+## Overview  
+![MenuApp Screenshot](https://github.com/user-attachments/assets/e20bb6d8-e3f7-48c9-9853-8aa76d487a18)
 
+The **Menu App** is a graphical ordering system created using Python and Tkinter. It allows users to place multiple orders from a defined menu, calculates tax, and generates a detailed receipt saved as a `.txt` file in the same directory.
 
-OVERVIEW OF SYSTEM
-==================
+---
 
-![MenuAppPic](https://github.com/user-attachments/assets/e20bb6d8-e3f7-48c9-9853-8aa76d487a18)
+## Features  
+- Multi-order support within one transaction  
+- Subtotal and sales tax calculation  
+- Receipt generation in plain text format  
+- Clean and intuitive GUI  
+- Custom icon for window branding
 
-This project is a simple GUI app implemented with the capability to take multiple orders from a menu, add them to a grand total, calculate tax, and create a detailed receipt via .txt file within the current directory.
+---
 
-INSTRUCTIONS ON USE
-===================
+## Usage Instructions  
 
-Upon opening the program, follow the on-screen instructions and select the "Add an order" button. Alternatively, select the "Quit" button to end the program at any time.
-If adding an order, a menu will open with check boxes for the user to choose any item they wish to order. After making selections, click "Add to order" to return to the main screen with the subtotal calculated.
-At this point, the user may add another order or sumbit the order with the "Submit Order" button. There is no constraint on the amount of orders that may be added to one transaction. Each subsequent order will be add to the grand total.
-After sumbitting the order, a reciept.txt file will be generated in the same directory and a notification will prompt the user that their order was sumbitted.
+### 1. Launch the Application  
+Navigate to the `src/` folder and run the `menu_app.py` file.
 
+```bash
+cd src
+python menu_app.py
+```
 
-SPECIAL NOTES
-=============
+### 2. Add an Order  
+Click the **“Add an Order”** button to open the menu interface.  
+Select one or more items using the checkboxes and click **“Add to Order”**.
 
-Menu items, prices, and tax amount are constants that can be changed easily within the code as needed.
+### 3. Submit Order  
+- Continue adding items or click **“Submit Order”** to finalize.  
+- A `receipt.txt` file is saved in the current directory.
+- A confirmation message will appear on-screen.
 
-This project is archived and no longer maintained.
+### 4. Quit  
+Use the **“Quit”** button at any point to exit the application.
 
-Enjoy!
+---
+
+## Configuration  
+
+- **Menu Items, Prices, and Tax Rate** are defined as constants in the source code (`menu_app.py`) and can be modified as needed.  
+- **Window Icon** is specified using a `.ico` file located in the `resources/` folder.
+
+---
+
+## File Summary  
+- `src/menu_app.py` – Main application logic and GUI interface  
+- `resources/app_icon.ico` – Application icon (must be in the specified path)
+
+---
+
+## Status  
+**Archived** — This project is no longer actively maintained.
+
+---
+
+## License  
+This project is open for educational use. Attribution appreciated.
