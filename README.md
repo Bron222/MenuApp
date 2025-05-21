@@ -40,7 +40,7 @@ The **Menu App** is a graphical ordering system created using Python and Tkinter
 ## Usage Instructions  
 
 ### 1. Launch the Application  
-Navigate to the `src/` folder and run the `menu_app.py` file.
+Navigate to the `src/` folder and run the `MenuApp.py` file.
 
 ```bash
 cd src
